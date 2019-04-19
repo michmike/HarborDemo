@@ -22,7 +22,13 @@ docker rmi demo.goharbor.io/hrteam/centosempty:1.1
 docker rmi demo.goharbor.io/hrteam/centosempty:1.2
 docker rmi demo.goharbor.io/hrteam/centosbaseimage:1.0
 docker rmi demo.goharbor.io/hrteam/headtrax:1.0
+docker rmi demo.goharbor.io/hrteam/centosbaseimage:2.1
+docker rmi demo.goharbor.io/hrteam/fastreplica:3.2
+docker rmi demo.goharbor.io/hrteam/signedmaster:3.2
+docker rmi demo.goharbor.io/hrteam/headtraxsql:2.1
 docker rmi centos:7
+docker rmi ubuntu:18.04
+docker rmi alpine:3.7
 
 export DOCKER_CONTENT_TRUST=1
 export DOCKER_CONTENT_TRUST_SERVER=https://demo.goharbor.io
