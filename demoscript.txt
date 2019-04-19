@@ -1,5 +1,0 @@
-docker login demo.goharbor.io -u michaelmi@vmware.com
-docker build -t michmike/centosempty:1.0 .
-docker tag michmike/centosempty:1.0 demo.goharbor.io/newstack/centosempty:1.1
-
-docker push demo.goharbor.io/newstack/centosempty:1.1
