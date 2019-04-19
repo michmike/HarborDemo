@@ -1,3 +1,4 @@
+```
 docker login demo.goharbor.io -u michaelmi@vmware.com
 
 cd /home/michmike/github/HarborDemo/alpinesql
@@ -28,3 +29,4 @@ export DOCKER_CONTENT_TRUST_SERVER=https://demo.goharbor.io
 docker tag demo.goharbor.io/hrteam/headtrax:1.0 demo.goharbor.io/hrteam/signedmaster:3.2
 docker push demo.goharbor.io/hrteam/signedmaster:3.2
 export DOCKER_CONTENT_TRUST=0
+```
